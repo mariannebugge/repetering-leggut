@@ -1,0 +1,39 @@
+
+.nyheter {
+    max-width: 1010px;
+    background-color: #eeee;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+
+}
+
+.nyhet {
+    background-color: darkorange;
+
+}
+
+.col-2 {
+    grid-column: span 2;
+}
+
+.col-3 {
+    grid-column: span 3;
+}
+
+.bilde {
+    width: 100%;
+}
+
+h1 {
+    margin: 0;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+}
+
+.stor-tekst {
+    font-size: 50px;
+}
